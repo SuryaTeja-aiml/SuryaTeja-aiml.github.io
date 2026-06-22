@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surya Teja Keerthi | Portfolio</title>
+  <meta name="description" content="Portfolio of Surya Teja Keerthi, a Computer Science & Engineering undergraduate specializing in AI/ML, distributed systems, and concurrent task engines.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Liquid Glass Background & Decorative Blobs -->
+  <div class="bg-wrapper">
+    <div class="bg-image"></div>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div class="custom-cursor" id="custom-cursor"></div>
+
+  <!-- Glassmorphic Header / Navigation -->
+  <header class="glass-nav">
+    <div class="nav-container">
+      <nav class="nav-links">
+        <a href="#about" class="nav-link active">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#courses" class="nav-link">Courses</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+      </nav>
+      <div class="nav-cta">
+        <a href="https://drive.google.com/file/d/1Av4l67u10iWrme1R9XlhR9VsJ5Xnv4sH/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="cta-button glass-button">Resume</a>
+      </div>
+      <button class="mobile-toggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main class="content-wrapper">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <div class="hero-badge animate-fade-in">
+          Final Year AI/ML Undergraduate
+        </div>
+        <h1 class="hero-title animate-slide-up">
+          Building <span class="gradient-text">High Performance</span> & Distributed Systems
+        </h1>
+        <p class="hero-subtitle animate-slide-up-delayed">
+          Hey, I'm <strong class="highlight-name">Surya Teja Keerthi</strong>. I design concurrent engines, leader election consensus systems, and low-latency real-time applications from the ground up.
+        </p>
+        <div class="hero-actions animate-slide-up-delayed">
+          <a href="#projects" class="action-btn primary-btn">View Projects</a>
+          <a href="#about" class="action-btn secondary-btn">More About Me</a>
+        </div>
+      </div>
+      
+      <div class="hero-visual animate-fade-in-delayed">
+        <div class="profile-card-wrapper">
+          <div class="liquid-refraction-container">
+            <!-- This container will hold the glass distortion effect -->
+            <div class="liquid-glass-overlay"></div>
+            <img src="Passport Size Photo.jpg" alt="Surya Teja Keerthi" class="profile-photo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / Profile Section -->
+    <section id="about" class="section scroll-reveal">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-card glass-card">
+          <h3>Profile Overview</h3>
+          <p>
+            I am a final-year Computer Science (AI/ML) undergraduate with hands-on experience building multi-threaded, distributed, and backend systems from scratch. I love solving concurrency challenges, optimization bottlenecks, and designing robust architectures.
+          </p>
+          <p>
+            Comfortable across the stack from C++ and Go to Java and Python, I bring a strong base in data structures, algorithms, and systems design built through consistent competitive programming practice.
+          </p>
+          <div class="education-info">
+            <h4><i class="fa-solid fa-graduation-cap"></i> Education</h4>
+            <div class="education-details">
+              <h5>SR University — Warangal, India</h5>
+              <p class="edu-degree">B.Tech in Computer Science & Engineering (AI/ML)</p>
+              <div class="edu-meta">
+                <span class="edu-cgpa">CGPA: <strong>7.9 / 10.0</strong></span>
+                <span class="edu-date">Expected Graduation: 2027</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-card glass-card">
+          <h3>Let's Connect</h3>
+          <p>Always open to discussing systems programming, distributed clusters, backend engineering, or AI/ML roles.</p>
+          <ul class="contact-list">
+            <li>
+              <a href="mailto:keerthisuryateja2005@gmail.com" class="contact-link">
+                <i class="fa-regular fa-envelope"></i>
+                <span>keerthisuryateja2005@gmail.com</span>
+              </a>
+            </li>
+            <li>
+              <a href="tel:+919290129483" class="contact-link">
+                <i class="fa-solid fa-phone"></i>
+                <span>+91 92901 29483</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/keerthisuryateja" target="_blank" rel="noopener" class="contact-link">
+                <i class="fa-brands fa-github"></i>
+                <span>github.com/keerthisuryateja</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/suryateja-keerthi" target="_blank" rel="noopener" class="contact-link">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>linkedin.com/in/suryateja-keerthi</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="section scroll-reveal">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skills-category glass-card">
+          <div class="category-header">
+            <i class="fa-solid fa-code"></i>
+            <h3>Languages</h3>
+          </div>
+          <ul class="skills-list">
+            <li><span>C++</span><span class="skill-level">Advanced</span></li>
+            <li><span>Go</span><span class="skill-level">Intermediate</span></li>
+            <li><span>Java</span><span class="skill-level">Advanced</span></li>
+            <li><span>Python</span><span class="skill-level">Advanced</span></li>
+            <li><span>JavaScript</span><span class="skill-level">Intermediate</span></li>
+            <li><span>SQL</span><span class="skill-level">Intermediate</span></li>
+            <li><span>HTML/CSS</span><span class="skill-level">Advanced</span></li>
+          </ul>
+        </div>
+
+        <div class="skills-category glass-card">
+          <div class="category-header">
+            <i class="fa-solid fa-gears"></i>
+            <h3>Systems & Core</h3>
+          </div>
+          <ul class="skills-list">
+            <li><span>Multi-threading</span></li>
+            <li><span>Concurrency & Synchronization</span></li>
+            <li><span>Distributed Systems</span></li>
+            <li><span>Leader Election & Consensus</span></li>
+            <li><span>Caching Strategies</span></li>
+            <li><span>AI/ML Basics</span></li>
+          </ul>
+        </div>
+
+        <div class="skills-category glass-card">
+          <div class="category-header">
+            <i class="fa-solid fa-toolbox"></i>
+            <h3>Frameworks & Tools</h3>
+          </div>
+          <div class="tools-tags">
+            <span class="tool-tag">Git</span>
+            <span class="tool-tag">Docker</span>
+            <span class="tool-tag">Docker Compose</span>
+            <span class="tool-tag">Redis</span>
+            <span class="tool-tag">PostgreSQL</span>
+            <span class="tool-tag">gRPC</span>
+            <span class="tool-tag">Spring Boot</span>
+            <span class="tool-tag">Spring Security</span>
+            <span class="tool-tag">JWT</span>
+            <span class="tool-tag">WebSocket/STOMP</span>
+            <span class="tool-tag">Nginx</span>
+            <span class="tool-tag">Maven</span>
+            <span class="tool-tag">Linux</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Projects Section -->
+    <section id="projects" class="section scroll-reveal">
+      <h2 class="section-title">Technical Projects</h2>
+      <div class="projects-container">
+        
+        <!-- Project 1 -->
+        <div class="project-item glass-card">
+          <div class="project-header">
+            <span class="project-icon"><i class="fa-solid fa-microchip"></i></span>
+            <div class="project-title-area">
+              <h3>Concurrent Task Engine</h3>
+              <span class="project-tech">C++17, POSIX Threads, Redis, Python</span>
+            </div>
+            <a href="https://github.com/keerthisuryateja/concurrent-task-engine" target="_blank" rel="noopener" class="project-github" aria-label="GitHub Repository">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+          <div class="project-body">
+            <ul>
+              <li>Built a multi-threaded C++ task execution engine using a fixed worker-pool architecture, avoiding per-task thread-creation overhead.</li>
+              <li>Designed a custom max-heap priority queue so higher-priority tasks automatically jump ahead of queued work.</li>
+              <li>Implemented thread-safe synchronization with <code>std::mutex</code> and <code>std::condition_variable</code> (predicate-checked to avoid spurious wakeups), releasing the queue lock before executing each task to prevent pool-wide bottlenecking.</li>
+              <li>Integrated the <code>hiredis</code> C client library directly into the engine for native Redis connectivity, avoiding any language-bridging overhead.</li>
+              <li>Synced live task metrics to a Python CLI dashboard through a Redis-backed, thread-safe metrics layer.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-item glass-card">
+          <div class="project-header">
+            <span class="project-icon"><i class="fa-solid fa-network-wired"></i></span>
+            <div class="project-title-area">
+              <h3>Distributed URL Shortener</h3>
+              <span class="project-tech">Go, gRPC, PostgreSQL, Docker, Nginx</span>
+            </div>
+            <a href="https://github.com/keerthisuryateja/url-shortener" target="_blank" rel="noopener" class="project-github" aria-label="GitHub Repository">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+          <div class="project-body">
+            <ul>
+              <li>Built a fault-tolerant, multi-node URL shortener in Go that actively replicates every write to all healthy peer nodes via gRPC broadcast, keeping per-node PostgreSQL databases in sync.</li>
+              <li>Implemented heartbeat-based leader election — the lowest-ID online node is promoted to Leader, and killing the active leader's container triggers automatic failover, verified end-to-end.</li>
+              <li>Authored the Protobuf-defined gRPC contract for the inter-node replication service and generated the corresponding Go client/server stubs.</li>
+              <li>Designed an asynchronous click-analytics pipeline with buffered Go channels and background worker goroutines so redirects remain non-blocking.</li>
+              <li>Fronted the cluster with Nginx as a load balancer and a live dashboard showing node health, leader/follower roles, and link analytics; containerized full deployment with Docker Compose.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-item glass-card">
+          <div class="project-header">
+            <span class="project-icon"><i class="fa-solid fa-comments"></i></span>
+            <div class="project-title-area">
+              <h3>Real-Time Chat System</h3>
+              <span class="project-tech">Java 21, Spring Boot 3, WebSocket/STOMP, PostgreSQL, Redis</span>
+            </div>
+            <a href="https://github.com/keerthisuryateja/chat-system" target="_blank" rel="noopener" class="project-github" aria-label="GitHub Repository">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+          <div class="project-body">
+            <ul>
+              <li>Built a real-time chat backend with secure registration and login using BCrypt password hashing and JWT authentication.</li>
+              <li>Implemented bi-directional real-time messaging over WebSocket with STOMP/SockJS, secured by a custom JWT channel interceptor across both REST and WebSocket layers.</li>
+              <li>Designed REST endpoints for user search and paginated chat-history retrieval, indexed by chat session and timestamp for fast lookup.</li>
+              <li>Persisted chat history and user data in PostgreSQL while using Redis for session state and caching to keep message delivery low-latency.</li>
+              <li>Containerized the full stack (app, PostgreSQL, Redis) with Docker Compose for one-command local deployment.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="section scroll-reveal">
+      <div class="section-header-flex">
+        <h2 class="section-title">Academic Courses</h2>
+        <div class="course-filter-buttons">
+          <button class="filter-btn active" data-year="all">All</button>
+          <button class="filter-btn" data-year="2026-27">2026-27</button>
+          <button class="filter-btn" data-year="2025-26">2025-26</button>
+          <button class="filter-btn" data-year="2024-25">2024-25</button>
+          <button class="filter-btn" data-year="2023-24">2023-24</button>
+        </div>
+      </div>
+
+      <div class="courses-grid" id="courses-grid">
+        <!-- 2026-27 -->
+        <div class="course-card glass-card" data-year="2026-27">
+          <span class="course-tag">2026-27</span>
+          <h4>Security Ethics and Regulations in AI</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2026-27">
+          <span class="course-tag">2026-27</span>
+          <h4>Augmented and Virtual Reality</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2026-27">
+          <span class="course-tag">2026-27</span>
+          <h4>Blockchain Engineering</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2026-27">
+          <span class="course-tag">2026-27</span>
+          <h4>Capstone Project</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2026-27">
+          <span class="course-tag">2026-27</span>
+          <h4>Agentic AI</h4>
+        </div>
+
+        <!-- 2025-26 -->
+        <div class="course-card glass-card" data-year="2025-26">
+          <span class="course-tag">2025-26</span>
+          <h4>DevOps and Full Stack</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2025-26">
+          <span class="course-tag">2025-26</span>
+          <h4>Psychology</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2025-26">
+          <span class="course-tag">2025-26</span>
+          <h4>High Performance Computing</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2025-26">
+          <span class="course-tag">2025-26</span>
+          <h4>Competitive Programming</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2025-26">
+          <span class="course-tag">2025-26</span>
+          <h4>AI Assistant Coding</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2025-26">
+          <span class="course-tag">2025-26</span>
+          <h4>Undergraduate Research in Computer Science</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2025-26">
+          <span class="course-tag">2025-26</span>
+          <h4>Explainable AI</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2025-26">
+          <span class="course-tag">2025-26</span>
+          <h4>Learning How to Learn</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2025-26">
+          <span class="course-tag">2025-26</span>
+          <h4>Quantitative Aptitude and Logical Reasoning</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2025-26">
+          <span class="course-tag">2025-26</span>
+          <h4>Theory of Computation</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2025-26">
+          <span class="course-tag">2025-26</span>
+          <h4>Software Engineering and System Design</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2025-26">
+          <span class="course-tag">2025-26</span>
+          <h4>Cloud Computing</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2025-26">
+          <span class="course-tag">2025-26</span>
+          <h4>Sustainability and Ethical Innovation</h4>
+        </div>
+
+        <!-- 2024-25 -->
+        <div class="course-card glass-card" data-year="2024-25">
+          <span class="course-tag">2024-25</span>
+          <h4>Mechanics for Game Design</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2024-25">
+          <span class="course-tag">2024-25</span>
+          <h4>Probability and Statistics</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2024-25">
+          <span class="course-tag">2024-25</span>
+          <h4>Communication Skills and Personality Development</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2024-25">
+          <span class="course-tag">2024-25</span>
+          <h4>Generative AI</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2024-25">
+          <span class="course-tag">2024-25</span>
+          <h4>Design and Analysis of Algorithms</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2024-25">
+          <span class="course-tag">2024-25</span>
+          <h4>Database Management Systems</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2024-25">
+          <span class="course-tag">2024-25</span>
+          <h4>Microprocessors and Computer Architecture</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2024-25">
+          <span class="course-tag">2024-25</span>
+          <h4>Statistical Machine Learning</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2024-25">
+          <span class="course-tag">2024-25</span>
+          <h4>Data Structures using Java</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2024-25">
+          <span class="course-tag">2024-25</span>
+          <h4>Artificial Intelligence and Machine Learning</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2024-25">
+          <span class="course-tag">2024-25</span>
+          <h4>Computer Networks</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2024-25">
+          <span class="course-tag">2024-25</span>
+          <h4>Operating Systems</h4>
+        </div>
+
+        <!-- 2023-24 -->
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Summer Internship</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Mechanics and Electromagnetics Tutorial</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Discrete Mathematical Structures Tutorial</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Matrix Algebra and Computational Methods Lab</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Object Oriented Programming in Java Lab</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Mechanics and Electromagnetics Lab</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Digital Logic Lab</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Matrix Algebra and Computational Methods</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Object Oriented Programming in Java</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Mechanics and Electromagnetics</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Life Skills</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Digital Logic</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Discrete Mathematical Structures</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Language Skills Lab</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Language Skills</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Smart Product Design Lab</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Smart Product Design</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Problem Solving using Python Programming Lab</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Problem Solving using Python Programming</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Environment and Sustainability</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Calculus and Differential Equations</h4>
+        </div>
+        <div class="course-card glass-card" data-year="2023-24">
+          <span class="course-tag">2023-24</span>
+          <h4>Entrepreneurship and Startup</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section scroll-reveal">
+      <h2 class="section-title">Honors & Achievements</h2>
+      <div class="achievements-timeline">
+        
+        <div class="achievement-card glass-card">
+          <div class="achievement-icon">
+            <i class="fa-solid fa-trophy"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Hackathon Winner</h3>
+            <h4>SRU AWS GenAI Internal Challenge 2025</h4>
+            <p>Won the internal challenge with <strong>“Problem Statement Selector”</strong>, an AI-powered tool built on AWS PartyRock (Bedrock) that recommends hackathon problem statements based on category, tech stack, difficulty, and innovation preferences.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card glass-card">
+          <div class="achievement-icon">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Competitive Programming</h3>
+            <p>Active on LeetCode (<a href="https://leetcode.com/u/Surya_Teja_Keerthi/" target="_blank" rel="noopener" class="inline-link">@Surya_Teja_Keerthi</a>) and HackerRank (<a href="https://www.hackerrank.com/profile/keerthisuryateja" target="_blank" rel="noopener" class="inline-link">@keerthisuryateja</a>).</p>
+            <p>Earned LeetCode's <strong>50-Day Streak Badge</strong> and the <strong>Jun/Jul 2025 Monthly Coding Challenge</strong> badges.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>&copy; 2026 Surya Teja Keerthi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Script File -->
+  <script src="script.js"></script>
+</body>
+</html>
